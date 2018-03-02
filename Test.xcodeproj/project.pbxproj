@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		5CB79B3020497AC9000DE86B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB79B2F20497AC9000DE86B /* AppDelegate.swift */; };
-		5CB79B3220497AC9000DE86B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB79B3120497AC9000DE86B /* ViewController.swift */; };
 		5CB79B3520497AC9000DE86B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB79B3320497AC9000DE86B /* Main.storyboard */; };
 		5CB79B3720497AC9000DE86B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB79B3620497AC9000DE86B /* Assets.xcassets */; };
 		5CB79B3A20497AC9000DE86B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB79B3820497AC9000DE86B /* LaunchScreen.storyboard */; };
+		5CB79B4620497D85000DE86B /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB79B4520497D85000DE86B /* RootWireframe.swift */; };
+		5CB79B4920497DDF000DE86B /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB79B4820497DDF000DE86B /* StartGameViewController.swift */; };
+		5CB79B4D2049817F000DE86B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB79B4C2049817F000DE86B /* Colors.swift */; };
+		5CB79B50204983A1000DE86B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB79B4F204983A1000DE86B /* GameViewController.swift */; };
+		5CB79B5220498878000DE86B /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB79B5120498878000DE86B /* PlayViewController.swift */; };
+		5CB79B5420498885000DE86B /* ExplanationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB79B5320498885000DE86B /* ExplanationViewController.swift */; };
+		5CB79B5620498F27000DE86B /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB79B5520498F27000DE86B /* UIView.swift */; };
+		5CB79B5820499349000DE86B /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB79B5720499349000DE86B /* Globals.swift */; };
+		5CB79B5C2049944D000DE86B /* NumbersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB79B5A2049944D000DE86B /* NumbersTableViewCell.swift */; };
+		5CB79B5D2049944D000DE86B /* NumbersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB79B5B2049944D000DE86B /* NumbersTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5CB79B2C20497AC9000DE86B /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB79B2F20497AC9000DE86B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5CB79B3120497AC9000DE86B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5CB79B3420497AC9000DE86B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5CB79B3620497AC9000DE86B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CB79B3920497AC9000DE86B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CB79B3B20497AC9000DE86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB79B4520497D85000DE86B /* RootWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
+		5CB79B4820497DDF000DE86B /* StartGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameViewController.swift; sourceTree = "<group>"; };
+		5CB79B4C2049817F000DE86B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		5CB79B4F204983A1000DE86B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5CB79B5120498878000DE86B /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		5CB79B5320498885000DE86B /* ExplanationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationViewController.swift; sourceTree = "<group>"; };
+		5CB79B5520498F27000DE86B /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		5CB79B5720499349000DE86B /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		5CB79B5A2049944D000DE86B /* NumbersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersTableViewCell.swift; sourceTree = "<group>"; };
+		5CB79B5B2049944D000DE86B /* NumbersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumbersTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,87 @@
 		5CB79B2E20497AC9000DE86B /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				5CB79B4B20498169000DE86B /* Extensions */,
+				5CB79B4320497D37000DE86B /* Storyboards */,
+				5CB79B4120497D25000DE86B /* Modules */,
+				5CB79B4420497D46000DE86B /* Resources */,
+				5CB79B4A20498136000DE86B /* SupportingFiles */,
 				5CB79B2F20497AC9000DE86B /* AppDelegate.swift */,
-				5CB79B3120497AC9000DE86B /* ViewController.swift */,
-				5CB79B3320497AC9000DE86B /* Main.storyboard */,
-				5CB79B3620497AC9000DE86B /* Assets.xcassets */,
-				5CB79B3820497AC9000DE86B /* LaunchScreen.storyboard */,
-				5CB79B3B20497AC9000DE86B /* Info.plist */,
+				5CB79B4520497D85000DE86B /* RootWireframe.swift */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		5CB79B4120497D25000DE86B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5CB79B4E20498390000DE86B /* GameScene */,
+				5CB79B4720497DC9000DE86B /* StartGameScene */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5CB79B4320497D37000DE86B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5CB79B3320497AC9000DE86B /* Main.storyboard */,
+				5CB79B3820497AC9000DE86B /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		5CB79B4420497D46000DE86B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5CB79B3620497AC9000DE86B /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5CB79B4720497DC9000DE86B /* StartGameScene */ = {
+			isa = PBXGroup;
+			children = (
+				5CB79B4820497DDF000DE86B /* StartGameViewController.swift */,
+			);
+			path = StartGameScene;
+			sourceTree = "<group>";
+		};
+		5CB79B4A20498136000DE86B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5CB79B3B20497AC9000DE86B /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		5CB79B4B20498169000DE86B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5CB79B4C2049817F000DE86B /* Colors.swift */,
+				5CB79B5520498F27000DE86B /* UIView.swift */,
+				5CB79B5720499349000DE86B /* Globals.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5CB79B4E20498390000DE86B /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				5CB79B592049942E000DE86B /* Cells */,
+				5CB79B4F204983A1000DE86B /* GameViewController.swift */,
+				5CB79B5120498878000DE86B /* PlayViewController.swift */,
+				5CB79B5320498885000DE86B /* ExplanationViewController.swift */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		5CB79B592049942E000DE86B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5CB79B5A2049944D000DE86B /* NumbersTableViewCell.swift */,
+				5CB79B5B2049944D000DE86B /* NumbersTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +187,7 @@
 				TargetAttributes = {
 					5CB79B2B20497AC9000DE86B = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -123,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB79B5D2049944D000DE86B /* NumbersTableViewCell.xib in Resources */,
 				5CB79B3A20497AC9000DE86B /* LaunchScreen.storyboard in Resources */,
 				5CB79B3720497AC9000DE86B /* Assets.xcassets in Resources */,
 				5CB79B3520497AC9000DE86B /* Main.storyboard in Resources */,
@@ -136,8 +228,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CB79B3220497AC9000DE86B /* ViewController.swift in Sources */,
+				5CB79B5620498F27000DE86B /* UIView.swift in Sources */,
+				5CB79B5420498885000DE86B /* ExplanationViewController.swift in Sources */,
+				5CB79B50204983A1000DE86B /* GameViewController.swift in Sources */,
 				5CB79B3020497AC9000DE86B /* AppDelegate.swift in Sources */,
+				5CB79B5C2049944D000DE86B /* NumbersTableViewCell.swift in Sources */,
+				5CB79B4D2049817F000DE86B /* Colors.swift in Sources */,
+				5CB79B4620497D85000DE86B /* RootWireframe.swift in Sources */,
+				5CB79B5220498878000DE86B /* PlayViewController.swift in Sources */,
+				5CB79B4920497DDF000DE86B /* StartGameViewController.swift in Sources */,
+				5CB79B5820499349000DE86B /* Globals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,12 +374,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A9YX4986KW;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ssk.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +390,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A9YX4986KW;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ssk.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

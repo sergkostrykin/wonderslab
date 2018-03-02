@@ -6,4 +6,8 @@
 //  Copyright © 2018 Sergiy Kostrykin. All rights reserved.
 //
 
-import Foundation
+import UIKit
+class ExplanationViewController: UIViewController {
+    
+}
+

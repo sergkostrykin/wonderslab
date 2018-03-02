@@ -7,3 +7,6 @@
 //
 
 import Foundation
+struct Globals {
+    static let results: Int = 1000
+}

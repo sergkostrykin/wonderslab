@@ -6,4 +6,9 @@
 //  Copyright © 2018 Sergiy Kostrykin. All rights reserved.
 //
 
-import Foundation
+import UIKit
+extension UIView {
+    func borderColor(_ color: UIColor) {
+        self.layer.borderColor = color.cgColor
+    }
+}

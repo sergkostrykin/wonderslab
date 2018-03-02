@@ -10,6 +10,8 @@ import UIKit
 
 class NumbersTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var numberTextLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
